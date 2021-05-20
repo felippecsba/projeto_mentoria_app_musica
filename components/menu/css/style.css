@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Avenir";
+  src: url("/font/AvenirNextLTPro-Regular.otf");
+}
+
+@font-face {
+  font-family: "Avenir";
+  src: url("/font/AvenirNextLTPro-Bold.otf");
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir";
+}
+
+body {
+  background: #ddd;
+}
+
+aside {
+  width: 220px;
+  height: 513px;
+  /*background: #171c27; */
+  background: linear-gradient(
+    45deg,
+    rgba(230, 60, 86, 1) 0%,
+    rgba(145, 58, 175, 1) 100%
+  );
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 30px 24px 60px 24px;
+}
+
+.logo__e__Menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+#logo__App {
+  max-height: 29px;
+}
+
+#menu__Hamb {
+  max-height: 20px;
+  opacity: 0.5;
+}
+
+.menu__musica {
+  margin-bottom: 32px;
+}
+
+.titulo__menu {
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+ul li {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 14px;
+  /* color: #b4cff2; */
+  color: #ffffff;
+  opacity: 0.7;
+
+  font-weight: lighter;
+}
