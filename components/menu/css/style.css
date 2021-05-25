@@ -48,7 +48,7 @@ aside {
   max-height: 29px;
 }
 
-#menu__Hamb {
+a #menu__Hamb {
   max-height: 20px;
   opacity: 0.5;
 }
